@@ -1,0 +1,12 @@
+10. What keys can you press if your program is stuck in an infinite loop?
+ans,
+	ctrl+c is pressed to stop the program
+
+11. What is the difference between break and continue?
+ans,
+	The break statement is used to break out of the entire loop if a specific condition got satisfied(move the execution out of a loop). Continue statement is used to skip the loop when a particular condition is met(Move execution to the start of the loop). 
+
+
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+ans,
+	Both the code do the same thing in a program as the default step value if not specified is 1 itself. 

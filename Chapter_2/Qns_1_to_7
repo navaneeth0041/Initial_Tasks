@@ -1,0 +1,64 @@
+1. What are the two values of the Boolean data type? How do you write them?
+ans, 
+	The two values of the Boolean data type are True and False. They are case-sensitive and so they written in the form that the first letter is capitalized.
+
+2. What are the three Boolean operators?
+ans, 
+	Boolean operators are used to compare Boolean values(They will evaluate the expressions down to a Boolean value).
+
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+ans, 
+	Boolean operator: and
+
+	True and True		True
+	True and False		False
+	False and True		False
+	False and False		False
+
+
+	Boolean operator: or
+
+	True or True		True
+	True or False		True
+	False or True		True
+	False or False		False
+
+
+	Boolean operator: not
+
+	not True			False
+	not False			True
+
+
+4. What do the following expressions evaluate to?
+ans,
+	(5 > 4) and (3 ==5) will evaluate to False
+
+	not (5>4) will evaluate to False
+
+	(5>4) or (3==5) will evaluate to True
+
+	not ((5>4)) or (3==5)) will evaluate to False
+
+	(not False) or (not True) will evaluate to True
+
+
+5. What are the six comparison operators?
+ans,
+	The six assignment operators are =, >, <, !=, <= and >=
+
+6. What is the difference between the equal to operator and the assignment operator?
+ans,
+	 The equal to operator is used for the comparison of two values while the assignment operator is used to store a value in a user given variable.
+
+7. Explain what a condition is and where you would use one.
+ans,
+	Condition is a expression used in the code which evaluates to a Boolean value.
+
+
+
+
+
+
+
+
