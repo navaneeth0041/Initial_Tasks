@@ -1,0 +1,65 @@
+1. What are escape characters?
+ans,
+	An escape is used to such characters that are otherwise impossible to put into a string.
+
+2. What do the \n and \t escape characters represent?
+ans,
+	\n : Adds a new line(line break)
+	\t : Tab
+
+3. How can you put a \ backslash character in a string?
+ans,
+	\ character can be added in a string by using \\ in it or we can use raw string method to ignore all escape characters.
+
+4. The string value "Howl's Moving Castle" is a valid string. Why isn’t it a problem that the single quote character in the word Howl's isn’t escaped?
+ans,
+	When the single quote is not escaped the string ends at that single quote. Here as we used double quotes single quote is not a problem.
+
+5. If you don’t want to put \n in your string, how can you write a string with newlines in it?
+ans,
+	we can use multiline strings with Triple Quotes.
+
+6. What do the following expressions evaluate to?
+(a) 'Hello, world!'[1]
+ans,
+	'e'
+(b) 'Hello, world!'[0:5]
+ans,
+	'Hello'
+(c) 'Hello, world!'[:5]
+ans,
+	'Hello'
+(d) 'Hello, world!'[3:]
+ans,
+	'lo, world!'
+
+7. What do the following expressions evaluate to?
+(a) 'Hello'.upper()
+ans,
+	'HELLO'
+(b) 'Hello'.upper().isupper()
+ans,
+	True
+(c) 'Hello'.upper().lower() 
+ans,
+	'hello'
+
+8. What do the following expressions evaluate to?
+(a) 'Remember, remember, the fifth of November.'.split()
+ans,
+	['Remember', 'remember','the', 'fifth','of','November.']
+(b) '-'.join('There can be only one.'.split())
+ans,
+	'There-can-be-only-one.'
+
+9. What string methods can you use to right-justify, left-justify, and center a string?
+ans,
+	rjust(), ljust(), center()
+
+10.  How can you trim whitespace characters from the beginning or end of a string?
+ans,
+	We can use strip(), rstrip() and lstrip()
+
+	
+
+
