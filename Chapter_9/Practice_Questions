@@ -1,0 +1,47 @@
+1. What is a relative path relative to?
+ans,
+	To the current directory
+
+2. What does an absolute path start with?
+ans,
+	With the root folder(/)
+
+3. What does Path('C:/Users') / 'Al' evaluate to on Windows?
+ans,
+	WindowsPath('C:/Users/Al')
+
+4. What does 'C:/Users' / 'Al' evaluate to on Windows?
+ans,
+	Error
+
+5.  What do the os.getcwd() and os.chdir() functions do?
+ans,
+	os.gercwd() gets the current workin directory
+	os.chdir is used to change the current working directory
+
+6. What are the . and .. folders?
+ans,
+	. is the current and .. is the parent folder
+
+7. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+ans,
+	C:\bacon\eggs : dir name
+	spam.txt : base name
+
+8. What are the three “mode” arguments that can be passed to the open() function?
+ans,
+	read(r),write(w) and append(a) mode
+
+9. What happens if an existing file is opened in write mode?
+ans,
+	It will be overwritten
+
+10.  What is the difference between the read() and readlines() methods?
+ans,
+	read() gives the entire contents in a string value
+	readlines() give a list of strings
+
+11.  What data structure does a shelf value resemble?
+ans,
+	Dictionary
+
